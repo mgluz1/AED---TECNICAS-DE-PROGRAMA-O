@@ -1,11 +1,11 @@
 #include "matematica.h"
 
-int fatorial(int n) {
-    if (n < 0) return -1;
-    int fat = 1;
-    for (int i = 1; i <= n; i++)
-        fat *= i;
-    return fat;
+int fatorial(int N) {
+    if(N == 0 || N == 1) {
+        return 1;
+    } else {
+        return N * fatorial(N - 1);
+    }
 }
 
 int eh_primo(int n) {
