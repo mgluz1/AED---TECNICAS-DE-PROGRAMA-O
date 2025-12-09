@@ -1,10 +1,10 @@
 #include "matematica.h"
 
-int fatorial(int N) {
-    if(N == 0 || N == 1) {
+int fatorial(int n) {
+    if(N == 0 || n == 1) {
         return 1;
     } else {
-        return N * fatorial(N - 1);
+        return n * fatorial(n - 1);
     }
 }
 
