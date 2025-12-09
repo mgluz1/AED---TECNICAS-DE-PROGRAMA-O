@@ -1,7 +1,7 @@
 #include "matematica.h"
 
 int fatorial(int n) {
-    if(N == 0 || n == 1) {
+    if(n == 0 || n == 1) {
         return 1;
     } else {
         return n * fatorial(n - 1);
